@@ -2,4 +2,7 @@
 
 Reactive Graph for Roblox.  
   
-Unstable, do not use for production.
+Available on wally
+```toml
+[dependencies]
+ReactiveGraph = "rstk/reactivegraph@0.1.0"
