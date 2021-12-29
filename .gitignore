@@ -1,0 +1,16 @@
+# wally package folders
+**/Packages
+**/DevPackages
+
+# selene
+roblox.toml
+
+# roblox place files
+*.rbxlx
+*.rbxl
+
+# lockfiles
+*.lock
+
+/.vscode
+/trashcan

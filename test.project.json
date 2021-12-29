@@ -1,0 +1,31 @@
+{
+	"name": "ReactiveGraph Testing",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Tests": {
+				"$path": "tests/tests"
+			},
+			"Packages": {
+				"$className": "Folder",
+				"ReactiveGraph": {
+					"$path": "src"
+				}
+			},
+			"DevPackages": {
+				"$path": "DevPackages",
+				"$ignoreUnknownInstances": true
+			},
+			"Benchmarks": {
+				"$path": "benchmarks"
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"test-runner": {
+				"$path": "tests/runner.server.lua"
+			}
+		}
+	}
+}
