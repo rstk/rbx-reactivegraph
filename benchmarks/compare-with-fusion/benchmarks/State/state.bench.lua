@@ -3,8 +3,8 @@
 ]]
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Fusion = require(ReplicatedStorage.Packages.Fusion)
-local ReactiveGraph = require(ReplicatedStorage.Packages.ReactiveGraph)
+local Fusion = require(ReplicatedStorage.DevPackages.Fusion)
+local ReactiveGraph = require(ReplicatedStorage.DevPackages.ReactiveGraph)
 
 local FusionState = Fusion.State
 local ReactiveGraphState = ReactiveGraph.State

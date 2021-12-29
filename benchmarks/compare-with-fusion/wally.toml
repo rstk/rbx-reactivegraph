@@ -6,6 +6,7 @@ license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
-[dependencies]
+# workaround for dev-dependencies not working
+[dev-dependencies]
 Fusion = "elttob/fusion@0.1.1-beta"
 ReactiveGraph = "rstk/reactivegraph@0.1.0"
